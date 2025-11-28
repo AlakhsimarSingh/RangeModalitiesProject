@@ -1,0 +1,6 @@
+cuda-env
+runs
+SnowPole Detection A Comprehensive Dataset for Detection and Localization Using LiDAR Imaging in Nordic Winter Conditions/
+temp_4ch_data.yaml
+.vscode/
+yolov9_4ch.pt
