@@ -4,4 +4,4 @@ SnowPole Detection A Comprehensive Dataset for Detection and Localization Using 
 temp_4ch_data.yaml
 .vscode/
 yolov9_4ch.pt
-Data/
+# Data/
