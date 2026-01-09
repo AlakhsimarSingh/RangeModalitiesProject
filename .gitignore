@@ -4,3 +4,12 @@ SnowPole Detection A Comprehensive Dataset for Detection and Localization Using 
 temp_4ch_data.yaml
 .vscode/
 yolov9_4ch.pt
+gitmodules.txt
+yolov8n.pt
+__pycache__/
+SnowPole_4ch
+ultralytics4channel-0a38736761a770f7f7dd80064e20b2d9624eda5b
+venv
+SnowPole_3ch
+Ablation_HHA
+Ablation_Range
