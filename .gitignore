@@ -14,3 +14,25 @@ SnowPole_3ch
 Ablation_HHA
 Ablation_Range
 # Data/
+key.txt
+key.txt.pub
+3CH_repl_nearir
+3CH_repl_signal
+3CH_repl_reflec
+4CH_GatedFusion
+4CH_rgbdgated
+Ablation_3CH11n
+Ablation_4CH
+Ablation_4CH11n
+Data
+dataset_fused
+late_gate_experiments
+repl_nearir
+repl_reflec
+repl_signal
+tempvenv
+ultralytics4channel
+weighted_late_gate_experiments
+yolo26n.pt
+requirements1.txt
+*.yaml
