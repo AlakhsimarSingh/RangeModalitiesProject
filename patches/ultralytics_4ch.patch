@@ -1,0 +1,70 @@
+diff --git a/ultralytics/data/base.py b/ultralytics/data/base.py
+index 1234567..abcdef0 100644
+--- a/ultralytics/data/base.py
++++ b/ultralytics/data/base.py
+@@ -115,7 +115,10 @@ class BaseDataset:
+         self.channels = channels
+         self.cv2_flag = cv2.IMREAD_GRAYSCALE if channels == 1 else cv2.IMREAD_COLOR
++        if channels == 1:
++            self.cv2_flag = cv2.IMREAD_GRAYSCALE
++        elif channels == 4:
++            self.cv2_flag = cv2.IMREAD_UNCHANGED
++        else:
++            self.cv2_flag = cv2.IMREAD_COLOR
+
+diff --git a/ultralytics/data/loaders.py b/ultralytics/data/loaders.py
+index 1234567..abcdef1 100644
+--- a/ultralytics/data/loaders.py
++++ b/ultralytics/data/loaders.py
+@@ -105,7 +105,10 @@ class LoadStreams:
+         self.channels = channels
+         self.cv2_flag = cv2.IMREAD_GRAYSCALE if channels == 1 else cv2.IMREAD_COLOR
++        if channels == 1:
++            self.cv2_flag = cv2.IMREAD_GRAYSCALE
++        elif channels == 4:
++            self.cv2_flag = cv2.IMREAD_UNCHANGED
++        else:
++            self.cv2_flag = cv2.IMREAD_COLOR
+
+@@ -275,7 +278,10 @@ class LoadScreenshots:
+         self.channels = channels
+         self.cv2_flag = cv2.IMREAD_GRAYSCALE if channels == 1 else cv2.IMREAD_COLOR
++        if channels == 1:
++            self.cv2_flag = cv2.IMREAD_GRAYSCALE
++        elif channels == 4:
++            self.cv2_flag = cv2.IMREAD_UNCHANGED
++        else:
++            self.cv2_flag = cv2.IMREAD_COLOR
+
+@@ -385,7 +391,10 @@ class LoadImagesAndVideos:
+         self.channels = channels
+         self.cv2_flag = cv2.IMREAD_GRAYSCALE if channels == 1 else cv2.IMREAD_COLOR
++        if channels == 1:
++            self.cv2_flag = cv2.IMREAD_GRAYSCALE
++        elif channels == 4:
++            self.cv2_flag = cv2.IMREAD_UNCHANGED
++        else:
++            self.cv2_flag = cv2.IMREAD_COLOR
+
+diff --git a/ultralytics/nn/modules/block.py b/ultralytics/nn/modules/block.py
+index 1234567..abcdef2 100644
+--- a/ultralytics/nn/modules/block.py
++++ b/ultralytics/nn/modules/block.py
+@@ -1,5 +1,6 @@
+ # Ultralytics YOLO 🚀, AGPL-3.0 license
+ """Block modules."""
++from torch import nn
+
+ __all__ = ["Silence"]
+@@ -10,3 +11,13 @@ __all__ = ["Silence"]
+ class Silence(nn.Module):
+     """Silence."""
+
+     def __init__(self):
+         """Initializes the Silence module."""
+         super(Silence, self).__init__()
+
+     def forward(self, x):
+         """Forward pass through Silence layer."""
+         return x
++
