@@ -248,15 +248,6 @@ If you use this work in your research, please cite:
   year={2026}
 }
 
-@article{bavirisetti2025snowpole,
-  title={SnowPole detection: A comprehensive dataset for detection and localization using LiDAR imaging in Nordic winter conditions},
-  author={Bavirisetti, Durga Prasad and Tiwari, Surbhi and Singh, Alakhsimar and Rafiq, Muhammed Bin and Seipel, Stefan},
-  journal={Data in Brief},
-  volume={59},
-  pages={111403},
-  year={2025},
-  publisher={Elsevier}
-}
 ```
 
 ## 📄 License
