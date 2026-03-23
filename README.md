@@ -89,7 +89,7 @@ All `.ipynb` files in the root directory are designed for ablation studies and c
 1. **Clone the repository**
    ```bash
    git clone https://github.com/AlakhsimarSingh/RangeModalitiesProject.git
-   cd snowpole-detection
+   cd RangeModalitiesProject
    ```
 
 2. **Install dependencies**
