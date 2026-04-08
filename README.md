@@ -4,11 +4,11 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
-**Authors:** Surbhi Tiwari<sup>∗¶</sup>, Alakhsimar Singh<sup>†¶</sup>, Muhammed Bin Rafiq<sup>‡</sup>, Stefan Seipel<sup>§</sup>, Durga Prasad Bavirisetti<sup>§∥</sup>
+**Authors:** Surbhi Tiwari<sup>∗¶</sup>, Alakhsimar Singh<sup>†¶</sup>, Muhammad Ibne Rafiq<sup>‡</sup>, Stefan Seipel<sup>§</sup>, Durga Prasad Bavirisetti<sup>§∥</sup>
 
 *<sup>∗</sup>Dept. of Electronics & Communication Engineering, NIT Jalandhar, India*  
 *<sup>†</sup>Dept. of Computer Science & Engineering, NIT Jalandhar, India*  
-*<sup>‡</sup>Dept. of Computer Science & Engineering, Eindhoven University of Technology, Netherlands*  
+*<sup>‡</sup>Dept. of Mathematics & Computer Science, Eindhoven University of Technology, Netherlands*  
 *<sup>§</sup>Dept. of Computer & Geospatial Sciences, University of Gävle, Sweden*  
 *<sup>¶</sup>Equal contribution. <sup>∥</sup>Corresponding: durga.prasad.bavirisetti@hig.se*
 
